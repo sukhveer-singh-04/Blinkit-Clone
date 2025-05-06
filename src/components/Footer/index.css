@@ -1,0 +1,118 @@
+.footer {
+    margin: 32px 12px;
+}
+
+.first {
+    display: flex;
+}
+.left {
+    flex-basis: 40%;
+}
+
+.list {
+    display: flex;
+}
+.left ul {
+    list-style: none;
+    margin: 12px 12px 12px 0;
+    line-height: 22px;
+    width: 100%;
+    color: #888787;
+}
+
+.right {
+    flex-basis: 60%;
+}
+
+.heading {
+    display: flex;
+    gap: 12px;
+    margin: 0 12px 12px 0;
+}
+
+.FooterLinks {
+    display: flex;
+    list-style: none;
+    gap: 12px 8px;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+
+ul {
+}
+li {
+    flex-basis: 30%;
+}
+
+li a {
+    text-decoration: none;
+    color: #888787;
+}
+
+.last {
+    margin: 32px 0;
+    color: #888787;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 32px;
+}
+
+.middle p {
+    font-size: 10px;
+}
+.app {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #575757;
+    flex-basis: 1;
+}
+
+.app img {
+    width: 80px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 32px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .grocery-item {
+        flex-basis: 33%;
+    }
+
+    .first {
+        flex-direction: column;
+    }
+
+    .middle {
+        flex-direction: column;
+    }
+
+    .last {
+        padding-bottom: 36px;
+    }
+
+    .right {
+
+    }
+
+    .FooterLinks li {
+        flex-basis: 40%;
+    }
+
+    .app {
+        flex-direction: column;
+    }
+}

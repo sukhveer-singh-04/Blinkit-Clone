@@ -1,0 +1,147 @@
+.navbar {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 12px;
+}
+
+.address {}
+
+.delivery {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 0 0 0;
+}
+
+.location {
+    font-size: 12px;
+    margin: 4px 0 4px 0;
+}
+
+.search {
+    flex-grow: 1;
+    border: 1px solid #d0d0d0;
+    border-radius: 12px;
+    display: flex;
+}
+
+.search-icon {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-input {
+    border: none;
+    flex-grow: 1;
+    outline: none;
+    border-radius: 12px;
+}
+
+.search-input :focus {
+    outline: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 0 4px 0 0;
+}
+
+.cart-icon {
+    width: 16px;
+    display: flex;
+    padding: 4px;
+}
+
+.banner {
+    width: 100%;
+    margin: 4px 0 20px 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner-outter {
+    margin: 0 12px;
+    display: flex;
+    gap: 20px;
+}
+
+.banner-items {
+    flex-basis: 27%;
+}
+
+.banner-items img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+    }
+
+    .nav-right {
+        position: fixed;
+        bottom: 0;
+        background: #d0d0d0;
+        width: 100%;
+        justify-content: center;
+        padding: 12px 0;
+        height: 20px;
+        z-index: 1000;
+    }
+
+    .cart{
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 0 8px;
+    }
+
+    .cart-icon img {
+        width: 16px;
+        /* padding: 0 4px; */
+    }
+
+    .search {
+        /* width: 100%;*/
+        width: calc(100% - 24px);
+        /* margin: 0 55px; */
+    }
+
+    .search-icon img {
+        width: 12px;
+    }
+
+}
