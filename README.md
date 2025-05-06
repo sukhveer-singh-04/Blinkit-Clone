@@ -1,12 +1,55 @@
-# React + Vite
+# Blinkit Clone 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end clone of the Blinkit (formerly Grofers) grocery delivery platform, built using **React** and **Vite**. This project replicates the core UI/UX of Blinkit to showcase React development skills, component architecture, and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with React and Vite for fast performance
+- 🎨 Clean and responsive UI
+- 🔍 Product listings and search bar layout
+- 📦 Category-based product display
+- 📱 Fully responsive across devices
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Vite, JavaScript, HTML, CSS
+- **Icons/Assets**: React Icons / Custom images
+
+## 📸 Screenshots
+
+![Home page](image.png)
+
+## 📂 Project Structure
+blinkit-clone/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+└── package.json
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repo
+
+git clone https://github.com/sukhveer-singh-04/Blinkit-Clone.git
+cd Blinkit-Clone
+
+npm install
+npm run dev
+
+The app will run at http://localhost:5173
+
+📌 Notes
+This is a frontend-only project. No backend functionality or database is implemented.
+
+Designed for learning and portfolio purposes.
+
+🙋‍♂️ Author
+Sukhveer Singh
+GitHub: @sukhveer-singh-04
+
+⭐️ Show Your Support
+If you like this project, consider giving it a ⭐️ on GitHub!
