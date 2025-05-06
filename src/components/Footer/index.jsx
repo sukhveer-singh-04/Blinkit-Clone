@@ -57,10 +57,10 @@ const Footer = () => {
                     </div>
                     <div className="social">
                         <img src='images/facebook-brands.svg'></img>
-                        <img src='images/facebook-brands.svg'></img>
-                        <img src='images/facebook-brands.svg'></img>
-                        <img src='images/facebook-brands.svg'></img>
-                        <img src='images/facebook-brands.svg'></img>
+                        <img src='images/square-twitter-brands.svg'></img>
+                        <img src='images/instagram-brands.svg'></img>
+                        <img src='images/linkedin-in-brands.svg'></img>
+                        <img src='images/threads-brands.svg'></img>
                     </div>
                 </section>
                 <section className="last">
